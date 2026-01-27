@@ -1,0 +1,124 @@
+    body {
+	background-color: #000000;
+	background-image: url('the castleground.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+	color: #FFFFFF;
+	line-height: 1.4;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 20px;
+	cursor: url('spr_sansb_blueeye_0.png'), auto;
+}
+
+  h1 {
+	color: white;
+	font-family: Papyrus, sans-serif;
+	font-size: 4em;
+}
+
+  h2 {
+	color: white;
+	font-family: Papyrus, sans-serif;
+	font-size: 1.5em;
+}
+
+  h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+    p {
+	color: rgb(202, 196, 196);
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+    a {
+	color: rgb(255, 255, 255);
+}
+
+    .hero {
+    background-color: #092cde;
+    color: #000000;
+}
+
+.container{
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+table, th, td {
+  border: 5px solid rgb(255, 255, 255);
+}
+
+#splash {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 999;
+  width: 100vw; 
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  font-size: 24px;
+  color: #fff; 
+  background-image: url('start menu.png');
+}
+ 
+#splash.hide {
+  opacity: 0; visibility: hidden;
+  transition: all 2s;
+}
+
+.tr {
+  text-align: center; 
+    }
+
+table, th, td {
+  border: 3px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+
+th{
+  padding:0.75rem 2rem;
+  text-transform: uppercase;
+  letter-spacing:0.1rem;
+  font-size: 0.7rem;
+  font-weight:900; 
+}
+
+td{
+  padding:1rem 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tr:nth-child(even) {
+}
+
+.Mapua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+}
